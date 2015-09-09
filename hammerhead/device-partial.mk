@@ -21,10 +21,6 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:lge \
-	vendor/lge/hammerhead/proprietary/OmaDmclient.apk:system/app/OmaDmclient.apk:lge\
-	vendor/lge/hammerhead/proprietary/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk:lge\
-	vendor/lge/hammerhead/proprietary/SprintHiddenMenu.apk:system/app/SprintHiddenMenu.apk:lge\
-	vendor/lge/hammerhead/proprietary/UpdateSetting.apk:system/app/UpdateSetting.apk:lge\
     vendor/lge/hammerhead/proprietary/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/General_cal.acdb:system/etc/General_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/Global_cal.acdb:system/etc/Global_cal.acdb:lge \
@@ -67,3 +63,9 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/vss_init:/system/vendor/bin/vss_init:lge \
 	vendor/lge/hammerhead/etc/apns-conf.xml:/system/etc/apns-conf.xml\
 
+
+PRODUCT_PACKAGES +=\
+	OmaDmclient\
+	qcrilmsgtunnel\
+	SprintHiddenMenu\
+	UpdateSetting
