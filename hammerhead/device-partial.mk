@@ -14,6 +14,13 @@
 
 # LGE blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
+    vendor/lge/hammerhead/proprietary/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:lge \
+    vendor/lge/hammerhead/proprietary/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb:lge \
+    vendor/lge/hammerhead/proprietary/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb:lge \
+    vendor/lge/hammerhead/proprietary/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb:lge \
+    vendor/lge/hammerhead/proprietary/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:lge \
+    vendor/lge/hammerhead/proprietary/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb:lge \
+    vendor/lge/hammerhead/proprietary/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:lge \
 	vendor/lge/hammerhead/proprietary/OmaDmclient.apk:system/app/OmaDmclient.apk:lge\
 	vendor/lge/hammerhead/proprietary/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk:lge\
 	vendor/lge/hammerhead/proprietary/SprintHiddenMenu.apk:system/app/SprintHiddenMenu.apk:lge\
